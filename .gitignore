@@ -1,2 +1,3 @@
-cat .git/info/exclude
-ETH help/
+#cat .git/info/exclude
+
+ETH\ help/
