@@ -3,7 +3,9 @@
 # Description
 
 Repository of useful Matlab scripts
+
 folder downloaded functions\ contains functions found on the internet.
+
 folder scripts\ contains my own Matlab scripts.
 
 Author: BASTIAAN ELLING
