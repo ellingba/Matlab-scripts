@@ -22,15 +22,17 @@ ignore ETH help folder
 
 in downloaded functions\:
 
--
--
--
+- Polyfitn: fits a polynomial function of N-th order to 3D data 
+- contourdata: creates a line at a certain level
+- linspecer: creates a colormap of pleasant N spaced colors.
+- magnifyOnFigure: creates a second figure inside the original with a Zoom
 
 
 ------------------------------------------------------------------------------
 
 in scripts\
 
--
--
--
+- Export figure script: script from Manuel Gehlen exporting a figure to be nicer in LaTeX
+- setDefaultValue: sets an argument in an other function to a default value IFF it has not been setDefaultValue
+- setFigureForPrint: removes unnecesary white space for export (to LaTeX)
+- setFigurePropreties: sets figure propreties (text, size, legend) to default if not stated otherwise
