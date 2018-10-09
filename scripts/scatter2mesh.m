@@ -30,6 +30,12 @@ end
 if size(limits) ~= [3 2]
     warning('Input *limits* is not 3x2!')
 end
+idx = sum(limits');
+for i = 1:3
+    if idx(i) == 0
+        limits(i,:) = min(M(:,i)),max(M(:,i))
+    end
+end
 
 % -----------------------------------------
 % Exclude points outside of limits
