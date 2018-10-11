@@ -6,13 +6,13 @@ Repository of useful Matlab scripts
 
 folder **downloaded functions\** contains functions found on the internet.
 
-folder **scripts\** contains my own Matlab scripts.
+folder **scripts\** contains my own Matlab scripts and functions.
 
 Author: BASTIAAN ELLING
 
-Local repository on LAPTOP-RPK5EE77\C:\Users\basti\Documents\MATLAB\GitHub
+Local repository on Bastiaan's laptop\C:\Users\basti\Documents\MATLAB\GitHub
 
-Last change in README file: 05-10-2018
+Last change in README file: 11-10-2018
 
 ------------------------------------------------------------------------------
 # file .gitignore
