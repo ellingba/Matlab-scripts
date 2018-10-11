@@ -32,6 +32,8 @@ ignore ETH help folder
 # folder scripts\
 
 - **Export figure script**: script from Manuel Gehlen exporting a figure to be nicer in LaTeX
+- **resultingAngle**: computes the "heading" || "segment angle" between two vectors in spherical coor. 
+- **scatter2mesh**: transforms a scatter map to a mesh form, can exclude points out of boundaries for interp.
 - **setDefaultValue**: sets an argument in an other function to a default value IFF it has not been setDefaultValue
 - **setFigureForPrint**: removes unnecesary white space for export (to LaTeX)
 - **setFigurePropreties**: sets figure propreties (text, size, legend) to default if not stated otherwise
