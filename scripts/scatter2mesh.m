@@ -5,6 +5,8 @@ function [X,Y,Z,F] = scatter2mesh(M,resolution,limits)
 %RESOLUTION can be a scalar for a cubic mesh or a 3x1 vector for a
 %rectangular one.
 %Both RESOLUTION and LIMITS are optional 
+%If you don't want to set a limit a a direction set it as 0 0
+%Ex: limits = [0 0; -10 10; 0 0] will have a limit only in Y-direction
 
 % -----------------------------------------
 %Set default values
@@ -27,13 +29,13 @@ if size(M,2) ~= 4
     warning('Input *M* must be of size nx4!')
 end
 %limits
-if size(limits) ~= [3 2]
+if size(limits,1) ~= 3 && size(limits,2) ~= 2
     warning('Input *limits* is not 3x2!')
 end
-idx = sum(limits');
+idx = sum(limits,2);
 for i = 1:3
     if idx(i) == 0
-        limits(i,:) = min(M(:,i)),max(M(:,i))
+        limits(i,:) = [min(M(:,i)), max(M(:,i))];
     end
 end
 
