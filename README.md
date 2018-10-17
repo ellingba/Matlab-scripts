@@ -12,7 +12,7 @@ Author: BASTIAAN ELLING
 
 Local repository on Bastiaan's laptop\C:\Users\basti\Documents\MATLAB\GitHub
 
-Last change in README file: 11-10-2018
+Last change in README file: 17-10-2018
 
 ------------------------------------------------------------------------------
 # file .gitignore
@@ -31,9 +31,14 @@ ignore ETH help folder
 ------------------------------------------------------------------------------
 # folder scripts\
 
-- **Export figure script**: script from Manuel Gehlen exporting a figure to be nicer in LaTeX
-- **resultingAngle**: computes the "heading" || "segment angle" between two vectors in spherical coor. 
+- **exportFigure**: prints a figure after checking that the name+extension does not exist already.
 - **scatter2mesh**: transforms a scatter map to a mesh form, can exclude points out of boundaries for interp.
 - **setDefaultValue**: sets an argument in an other function to a default value IFF it has not been setDefaultValue
 - **setFigureForPrint**: removes unnecesary white space for export (to LaTeX)
 - **setFigurePropreties**: sets figure propreties (text, size, legend) to default if not stated otherwise
+
+- **math\**: folder of math functions (quaternions and rotation matrices mainly)
+	- **angularNorm**: computes the "heading" || "segment angle" between two vectors in spherical coor. 
+	- **pseudoInverseMat**: computes the pseudo-Inverse of a non-square Matrix according to Moore-Penrose's formula.
+	- **quatMult**: multiplies two quaternions.
+	- Multiple conversions between quaternions, rotation Matrices and rotation vectors.
